@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactez un développeur</title>
+    <meta name="description" content="Vous avez une question sur mes compétences ou une proposition de travail, contactez-moi.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav><ul>
+
+                 <li><a href="index.html">CV</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a class ="nav_FORM_none">CONTACT</a></li>
+                 </ul>
+                 </nav><div id = "noir"></div>
+    <form method="post"> <!-- Balise délimitant le formulaire -->
+
+        <h1><strong id = titre_form>Contactez</strong> moi:</h1>
+        <p>Vous avez une question sur mes compétences ou une proposition de travail, contactez-moi.</p>
+        <!-- Exemple de formulaire -->
+
+        <!-- Boites de textes, plusieurs types spécifiques existes pour recevoir des données précises (email, téléphone, mdp,...) -->
+        <div>
+            <label>
+                Email :
+                <input type="text" name="textbox_email" placeholder="john.doe@domain.tld"/>
+            </label>
+        </div>
+
+        <!-- Zone de texte -->
+        <div>
+            <label>
+                Sujet du mail :
+                <input type="text" name="textbox_subject" placeholder="Donnez un titre à votre messsage..." maxlength="255" >
+            </label>
+        </div>
+
+
+        <div>
+            <textarea name="textarea_message" placeholder="Votre message ici..."></textarea>
+        </div>
+
+        <!-- Bouton de validation du formulaire -->
+        <input type="submit" value="Envoyer"/>
+    </form>
+</body>
+</html>

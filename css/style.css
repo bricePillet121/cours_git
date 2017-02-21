@@ -1,0 +1,69 @@
+/*feuille de style exo*/
+
+/*-- parties communes à chaque page du site --*/
+
+
+body{
+background:url("image/fond.jpg") ;
+
+font-family:  calibri, Arial ,Verdana, sans-serif;}
+nav ul li {display:inline;
+margin-left: 22px;
+text-decoration:none;
+ }
+h1{color: #e8601c;
+margin-right: 70px;}
+
+h2{color: #34353a;}
+
+a{text-decoration:none;
+color:white;
+font-size: 120%;
+:absolute}
+nav{background-color:maroon;
+	height: 110%;margin-top: 0px}
+#noir{background-color: #000000;width: 100%;height: 15px;}
+
+
+/* ---------- page INDEX "cv"uniquement ----------*/
+
+.nav_CV_none {color:#f3d80d;font-size: 25px ;}
+#texte_id{float: left;}
+#titre{color: #3d2c2c;}
+#img1 {float: left;margin:15px ;
+       width: 270px;height: 270px }
+#img2 {float:left;}
+#img3 {float:left;}
+#img4 {float:left;}
+#txt1{float : left;
+width: 30%;
+padding-left:300px ;
+border-right: solid;
+border-width: 2px; }
+#txt2{float : right;
+width: 30%;
+padding-right:200px}
+
+
+/* ---------- page BLOG uniquement ----------*/
+
+#raw {width: 100%;height: 200px}
+#titre_blog {color: #3d2c2c;margin-left: 73px;}
+#contenu_1 {float :left;width: 15%;margin-left: 5%;margin-right: 5%;box-shadow:0px 8px 5px 1px rgba(135,35,125,0.2);}
+#contenu_2 {float :left;width: 15%;margin-left: 5%;margin-right: 5%;box-shadow:0px 8px 5px 1px rgba(135,35,125,0.2);} 
+#contenu_3 {float :left;width: 15%;margin-left: 5%;margin-right: 5%;box-shadow:0px 8px 5px 1px rgba(135,35,125,0.2);}
+#contenu_4 {float :left;width: 15%;margin-left: 5%;margin-right: 5%;box-shadow:0px 8px 5px 1px rgba(135,35,125,0.2);}
+#pimg_1>img {width: 100%;}
+#pimg_2>img {width: 100%;}
+#pimg_3>img {width: 100%;}
+#pimg_4>img {width: 100%;}
+article {padding : 5px ;border-bottom :30px solid black ;}
+.nav_BLOG_none {color:#f3d80d;font-size: 25px ;}
+.titre_article {padding: 5px 0px 0px 2%;font-size: 20px;width:98%; color:#FFFFFF;background-color: maroon }
+.texte_date {padding: 0px 0px 0px 2%;width:98%;color: #FFFFFF; ;background-color:#000000}
+
+
+/* ---------- page FORMULAIRE uniquement ----------*/
+
+#titre_form{color: #3d2c2c;}
+.nav_FORM_none {color:#f3d80d;font-size: 25px ;}
